@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .hero {
+    padding: 2em;
+  }
+  
+  .cta-btn {
+    background: #fff;
+    color: #007BFF;
+    padding: 0.8em 1.5em;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1em;
+    display: inline-block;
+  }
+  
+  .cta-btn:hover {
+    background: #0056b3;
+    color: #fff;
+  }
+  
+  /* Sections */
+  .about-section, .services-section, .contact-section {
+    padding: 3em 2em;
+    text-align: center;
+    background: #f4f4f4;
+    margin-bottom: 1em;
+  }
+  
+  .services-section {
+    background: #fff;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+    margin: 1em;
+  }
+  
+  .contact-section input, .contact-section textarea, .contact-section button {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-section button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+  }
+  
+  .contact-section button:hover {
+    background: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
